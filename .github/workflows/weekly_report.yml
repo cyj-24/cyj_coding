@@ -2,8 +2,8 @@ name: Weekly Pharma Strategy Report
 
 on:
   schedule:
-    # 每 5 分钟运行一次 (测试目的)
-    - cron: '*/5 * * * *'
+    # 北京时间每天早上 7:30 (UTC 时间前一天 23:30)
+    - cron: '30 23 * * *'
   workflow_dispatch: # 允许手动测试触发
 
 # 赋予 GitHub Actions 写权限以回存 JSON 数据
