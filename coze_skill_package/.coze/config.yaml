@@ -1,0 +1,10 @@
+version: "1.0"
+metadata:
+  language: "zh-CN"
+  project_type: "skill"
+  author: "Antigravity AI"
+tools:
+  - name: "google_search"
+    description: "Search for reports on consulting sites"
+  - name: "link_reader"
+    description: "Parse PDF and web content"
