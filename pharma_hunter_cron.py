@@ -27,6 +27,11 @@ TABLE_ID = os.getenv("FEISHU_TABLE_ID")
 # 3. 搜索配置 (Serper.dev)
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
+# 4. AI 配置
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
 # 5. 持久化存储配置
 HISTORY_FILE = "sent_reports.json"
 
