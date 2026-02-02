@@ -375,6 +375,7 @@ def send_to_feishu(content, report_url):
         return False
 
 def main():
+    print("[*] 正在启动医药研报自动化程序 (调试版 001)...")
     # 0. 验证必要配置
     if not all([SERPER_API_KEY, GEMINI_API_KEY]):
         print("[!] 错误：缺少 AI 配置（Gemini）。")
